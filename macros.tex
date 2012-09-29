@@ -1,0 +1,35 @@
+% Жирный вектор
+\newcommand{\vect}[1] { \mathbf{#1} }
+\newcommand{\V}[1] { \mathbf{#1} }
+% Элемент прверхности df
+\newcommand{\df}{ d\mathbf{f} }
+% Дельта-ЭР
+\newcommand{\dr}{\delta\vect{r}}
+% Вектор скорости
+\newcommand{\vv}{{\vect{v}}}
+% Вектор угловой скорости
+\newcommand{\vo}{{\vect{\omega}}}
+% Полная производная
+\newcommand{\D}[2]{\frac{d{#1}}{d{#2}}}
+% Частная производная
+\newcommand{\pd}[2]{\frac{\partial{#1}}{\partial{#2}}}
+% Частная производная при постоянной термодинамической переменной
+\newcommand{\ddp}[3]{\left( \frac{\partial{#1}}{\partial{#2}} \right)_{#3} }
+% Частная производная по времени
+\newcommand{\pdt}{\frac{\partial}{\partial t}}
+% Полотность-скорость-элемент прверхности
+\newcommand{\rvdf}{ \rho \vv \df }
+\newcommand{\ddv}[2]{d{#2} \frac{\partial \vect{#1}}{\partial{#2}}}
+% (Скорость х Набла) х Скорость
+\newcommand{\vnv}{(\vv \nabla) \vv}
+% [Скорость х Ротор Скорости]
+\newcommand{\vrv}{\lbrack \vv \rot \vv \rbrack}
+% Дивергенция
+\def\Div{\mathop{\mathrm{div}}\nolimits}
+% Градиент
+\def\grad{\mathop{\mathrm{grad}}\nolimits}
+% Ротор
+\def\rot{\mathop{\mathrm{rot}}\nolimits}
+% Констранта
+\def\const{\mathop{\mathrm{const}}\nolimits}
+
